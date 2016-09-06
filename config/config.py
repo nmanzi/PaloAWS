@@ -10,9 +10,10 @@ AZ_PREFIX_MAP = {
     'b': '192.168.2.0/24'
 }
 
-# internal ELB that NAT rule will point to
+# internal ELB(s) that NAT rule will point to
 ELB_LIST = [
-    "internal-lb-123456789.eu-central-1.elb.amazonaws.com"
+    "internal-lb-123456789.eu-central-1.elb.amazonaws.com",
+    "internal-lb-987654321.eu-central-1.elb.amazonaws.com"
 ]
 
 # S3 Bucket where the database is stored at
